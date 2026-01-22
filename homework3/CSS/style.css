@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+
+.form {
+  border-radius: 5px;
+  max-width: 350px;
+}
+
+.input {
+  display: block;
+  width: 250px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px 0 15px 0;
+}
+
+#textarea {
+  width: 250px;
+  max-height: 100px;
+  resize: vertical;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px 0 15px 0;
+}
+
+.label {
+  display: block;
+}
+
+.span {
+  padding-left: 10px;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px 0 0 0;
+}

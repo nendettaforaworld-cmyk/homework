@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework3</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset class="form">
+        <h3>Ваши личные данные</h3>
+        <label>
+          Ваше имя
+          <input
+            type="text"
+            class="input"
+            placeholder="Имя"
+            name="name"
+            required
+          />
+        </label>
+        <label>
+          Ваш возраст
+          <input
+            type="number"
+            class="input"
+            placeholder="Возраст"
+            inputmode="numeric"
+            name="age"
+            required
+          />
+        </label>
+        <label>
+          Ваш номер телефона
+          <input
+            type="tel"
+            class="input"
+            placeholder="Номер телефона"
+            inputmode="tel"
+            name="phone number"
+            required
+          />
+        </label>
+        <label>
+          Ваша почта
+          <input
+            type="email"
+            class="input"
+            placeholder="Почта"
+            inputmode="email"
+            name="email"
+            required
+          />
+        </label>
+        <label>
+          Сообщение
+          <textarea
+            name="massage"
+            id="textarea"
+            placeholder="Ваше сообщение"
+            required
+          ></textarea>
+        </label>
+        <label class="label">
+          <input type="checkbox" class="checkbox" value="yes" /><span
+            class="span"
+            >Я принимаю правила</span
+          >
+        </label>
+        <button class="button">Отправить</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
