@@ -36,6 +36,11 @@ ul {
   gap: 30px;
 }
 
+.lists {
+  color: black;
+}
+
 .tel {
   text-decoration: none;
+  color: black;
 }
